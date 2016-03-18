@@ -91,10 +91,16 @@ ADD     ./supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 # Grafana
 EXPOSE  80
 
+# StatsD TCP port
+EXPOSE  8123
+
+# StatsD TCP Management port
+EXPOSE  8124
+
 # StatsD UDP port
 EXPOSE  8125/udp
 
-# StatsD Management port
+# StatsD UDP Management port
 EXPOSE  8126
 
 # Graphite web port
