@@ -1,2 +1,6 @@
 logs
 *.sw[op]
+
+data/whisper/
+data/grafana/sessions/
+data/grafana/log/
