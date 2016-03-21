@@ -100,6 +100,8 @@ EXPOSE  8126
 # Graphite web port
 EXPOSE 81
 
+# Graphite TCP port
+EXPOSE 2003
 
 
 # -------- #
